@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cotizadorprestamosv2.0",
-    "slug": "cotizadorprestamosv2.0",
+    "name": "cotizadorprestamosv2",
+    "slug": "cotizadorprestamosv2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,7 @@
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "**/*"
+      "./assets/*"
     ],
     "ios": {
       "supportsTablet": true
@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.manuel.araniva.cotizadorprestamos"
     },
     "web": {
       "favicon": "./assets/favicon.png"
